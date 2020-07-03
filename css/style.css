@@ -1,10 +1,45 @@
 .one {
-  width: 500px;
+  width: 968px;
   height: 200px;
-  background: gray;
-  margin auto;
+  background: url(../img/Headers-img.jpg) no-repeat;
+  margin: auto;
 }
 
 h1 {
   color: red;
+}
+
+.one__nav {
+  background: #0e3f82;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 920px;
+  margin-top: 140px;
+  padding-left: 7px;
+}
+
+.navbar__link {
+  color: white;
+  border-right: 2px solid white;
+  background-color: #0e3f82;
+  padding: 10px 73px;
+  margin-right: 1.3px;
+  
+}
+
+.navbar__link--and {
+  border-right: none;
+}
+
+.navbar__link:hover {
+  color: white;
+  border-right: 2px solid white;
+  background-color: #34b4d7;
+  padding: 10px 73px;
+  margin-right: 1.3px;
+  
 }
