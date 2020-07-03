@@ -1,4 +1,4 @@
-.one {
+.header {
   width: 968px;
   height: 200px;
   background: url(../img/Headers-img.jpg) no-repeat;
@@ -7,10 +7,12 @@
 
 h1 {
   color: red;
+  padding: 60px 0 0 40px;
 }
 
-.one__nav {
+.header__nav {
   background: #0e3f82;
+  width: 920px;
 }
 
 .navbar {
@@ -18,7 +20,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 920px;
-  margin-top: 140px;
+  margin-top: 100px;
   padding-left: 7px;
 }
 
@@ -26,7 +28,8 @@ h1 {
   color: white;
   border-right: 2px solid white;
   background-color: #0e3f82;
-  padding: 10px 73px;
+  text-transform: uppercase;
+  padding: 10px 68.7px;
   margin-right: 1.3px;
   
 }
@@ -36,10 +39,10 @@ h1 {
 }
 
 .navbar__link:hover {
-  color: white;
+  color: goldenrod;
+  font-weight: bold;
   border-right: 2px solid white;
-  background-color: #34b4d7;
-  padding: 10px 73px;
-  margin-right: 1.3px;
+  padding: 9px 67.7px;
+  margin-right: 1.4px;
   
 }
